@@ -1,0 +1,274 @@
+body[b-lxm4byno60]{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+  }
+  
+  .container[b-lxm4byno60]{
+    margin: auto;
+    width: 800px;
+    padding: 30px;
+  }
+  
+  ul[b-lxm4byno60], li[b-lxm4byno60] {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider[b-lxm4byno60]{
+    position: relative;
+    width: 800px;
+    height: 300px;
+  }
+  
+  ul.slider li[b-lxm4byno60] {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:#fff;
+  }
+  
+  ul.slider li img[b-lxm4byno60]{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child[b-lxm4byno60] {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target[b-lxm4byno60] {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu[b-lxm4byno60]{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu li[b-lxm4byno60]{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a[b-lxm4byno60]{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+
+  p[b-lxm4byno60]{
+    color: #fff;
+  }
+
+  #pic1[b-lxm4byno60]{
+    max-width: 75%;
+height: auto;
+margin: 25px;
+padding: 5px;
+display: block;
+margin: auto;
+  }
+
+  #pic2[b-lxm4byno60]{
+    max-width: 75%;
+height: auto;
+margin: 25px;
+padding: 5px;
+display: block;
+margin: auto;
+  }
+
+
+  #pic3[b-lxm4byno60]{
+    max-width: 75%;
+height: auto;
+margin: 25px;
+padding: 5px;
+display: block;
+margin: auto;
+
+  }
+
+ 
+	input[type="button"][b-lxm4byno60],
+	input[type="submit"][b-lxm4byno60],
+	input[type="reset"][b-lxm4byno60],
+	button[b-lxm4byno60],
+	.button[b-lxm4byno60] {
+		-moz-transition: all .25s ease-in-out;
+		-webkit-transition: all .25s ease-in-out;
+		-ms-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
+		display: inline-block;
+		background: #444;
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: 0.25em;
+		text-decoration: none;
+		border-radius: 0.35em;
+		border: 0;
+		outline: 0;
+		cursor: pointer;
+		padding: 0 2.25em 0 2.25em;
+		font-size: 0.9em;
+		min-width: 12em;
+		height: 4em;
+		line-height: 4em;
+	}
+
+		input[type="button"]:hover[b-lxm4byno60],
+		input[type="submit"]:hover[b-lxm4byno60],
+		input[type="reset"]:hover[b-lxm4byno60],
+		button:hover[b-lxm4byno60],
+		.button:hover[b-lxm4byno60] {
+			background-color: #e75454;
+		}
+
+		input[type="button"].large[b-lxm4byno60],
+		input[type="submit"].large[b-lxm4byno60],
+		input[type="reset"].large[b-lxm4byno60],
+		button.large[b-lxm4byno60],
+		.button.large[b-lxm4byno60] {
+			font-size: 1em;
+			min-width: 14em;
+		}
+
+		input[type="button"].style1[b-lxm4byno60],
+		input[type="submit"].style1[b-lxm4byno60],
+		input[type="reset"].style1[b-lxm4byno60],
+		button.style1[b-lxm4byno60],
+		.button.style1[b-lxm4byno60] {
+			background: #8d0404 url("images/overlay.png");
+			color: #fff;
+		}
+
+			input[type="button"].style1:hover[b-lxm4byno60],
+			input[type="submit"].style1:hover[b-lxm4byno60],
+			input[type="reset"].style1:hover[b-lxm4byno60],
+			button.style1:hover[b-lxm4byno60],
+			.button.style1:hover[b-lxm4byno60] {
+				background-color: #9d1818;
+			}
+
+			input[type="button"].style1:active[b-lxm4byno60],
+			input[type="submit"].style1:active[b-lxm4byno60],
+			input[type="reset"].style1:active[b-lxm4byno60],
+			button.style1:active[b-lxm4byno60],
+			.button.style1:active[b-lxm4byno60] {
+				background-color: #812924;
+			}
+
+      h1[b-lxm4byno60], h2[b-lxm4byno60], h3[b-lxm4byno60], h4[b-lxm4byno60], h5[b-lxm4byno60], h6[b-lxm4byno60] {
+        font-weight: 700;
+        color: #ff0000;
+      }
+     
+      h1 a[b-lxm4byno60], h2 a[b-lxm4byno60], h3 a[b-lxm4byno60], h4 a[b-lxm4byno60], h5 a[b-lxm4byno60], h6 a[b-lxm4byno60] {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a[b-lxm4byno60] {
+        -moz-transition: color .25s ease-in-out;
+        -webkit-transition: color .25s ease-in-out;
+        -ms-transition: color .25s ease-in-out;
+        transition: color .25s ease-in-out;
+        text-decoration: underline;
+        color: #797171;
+      }
+    
+        a:hover[b-lxm4byno60] {
+          text-decoration: none;
+        }
+
+       /*-->Boton Neon*/
+       body[b-lxm4byno60]{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1a0321;
+    font-family:consolas;
+}
+.btn-neon[b-lxm4byno60]{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btn-neon:hover[b-lxm4byno60]{
+    background: #c74545;
+    box-shadow: 0 0 10px #c74545, 0 0 40px #c74545, 0 0 80px #c74545;
+    transition-delay: 1s;
+ }
+.btn-neon span[b-lxm4byno60]{
+    position: absolute;
+    display: block;
+}
+#span1[b-lxm4byno60]{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,#c74545);
+ }
+ .btn-neon:hover #span1[b-lxm4byno60]{
+    left: 100%;
+    transition: 1s;
+}
+ #span3[b-lxm4byno60]{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#c74545);
+}
+ .btn-neon:hover #span3[b-lxm4byno60]{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2[b-lxm4byno60]{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#c74545);
+}
+.btn-neon:hover #span2[b-lxm4byno60]{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4[b-lxm4byno60]{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#c74545);
+}
+.btn-neon:hover #span4[b-lxm4byno60]{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}

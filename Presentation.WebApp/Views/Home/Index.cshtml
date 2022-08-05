@@ -1,0 +1,164 @@
+﻿@{
+	ViewData["Title"] = "Fast/Speed ";
+}
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+<script src="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZ-Bgp1Q1thLDOrm9euFIv0gZNYVzceL0&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <style type="text/css"> 
+      #map {
+        height: 500px;
+        width: 800px;
+        border-radius: 15px;
+        margin: 100px auto;
+      }
+    </style>
+    <script>
+      // inicia la Configuración
+      function initMap() {
+        const directionsRenderer = new google.maps.DirectionsRenderer();
+        const directionsService = new google.maps.DirectionsService();
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 14,
+          center: { lat: 6.244338, lng: -75.573553 },
+        });
+        directionsRenderer.setMap(map);
+        calculateAndDisplayRoute(directionsService, directionsRenderer);
+      }
+
+      function calculateAndDisplayRoute(directionsService, directionsRenderer) {
+
+        directionsService.route(
+          {
+            origin: { lat: 6.244338, lng: -75.573553 },
+            destination: { lat: 6.153617, lng: -75.374169 },
+            // tambien se puede usar de otro modo WALKING - BICYCLING - TRANSIT
+            travelMode: google.maps.TravelMode["DRIVING"],
+          },
+          (response, status) => {
+            if (status == "OK") {
+              directionsRenderer.setDirections(response);
+            } else {
+              window.alert("Directions request failed due to " + status);
+            }
+          }
+        );
+      }
+    </script>
+
+<div class="text-center" </div>
+
+	<head>
+		<link href="/css/estilos.css" rel="stylesheet" />
+	</head>
+
+	<body style="background-color:#1C2833 ;">
+		<video style="" src="images/backgroundvideo.mp4" autoplay loop muted>
+		</video>
+		<!--Titulo -->
+		<br>
+		<div style="text-align: center"><a href="" class="btn-neon">
+				<span id="span1"></span>
+				<span id="span2"></span>
+				<span id="span3"></span>
+				<span id="span4"></span>
+				Elite Eclipse
+			</a></div>
+		<br>
+		<br>
+		<br>
+		<i style="color:white ;">
+			<h4>"Los mejores autos, en su mejor precio"
+		</i></h4>
+		<h2 style="color:white ;">"¡Te mostramos un par de autos que tenemos en exhibición ahora mismo!"</h2>
+		<!--Carrusel -->
+		<div class="container">
+			<ul class="slider">
+				<li id="slide1">
+					<img src="https://www.laguiadelvaron.com/wp-content/uploads/2019/08/Carros-que-superan-320-kmh-www.laguiadelvaron-11.jpg"
+						alt="" />
+				<li id="slide2">
+					<img
+						src="https://img.remediosdigitales.com/e961c2/chevrolet_camaro_zl1_1le.jpeg-copia/1366_2000.jpg" />
+				</li>
+				<li id="slide3">
+					<img
+						src="https://img.remediosdigitales.com/4d3948/dodge_viper_srt10_acr_9.jpeg-copia/1366_2000.jpg" />
+				</li>
+			</ul>
+			<ul class="menu">
+				<li>
+					<a href="#slide1"></a>
+				</li>
+				<li>
+					<a href="#slide2"></a>
+				</li>
+				<li>
+					<a href="#slide3"></a>
+				</li>
+			</ul>
+			<!--Pequeña galeria para proceder a comprar -->
+			<span class="iconify" data-icon="line-md:arrow-up-circle" style="color: white;" data-width="50"
+				data-height="50"></span>
+			<h2 style="color: white;">Da click para ver más de nuestros modelos de importación<h2>
+		</div>
+		<section id="highlights" class="wrapper style3">
+			<div class="title" style="color: white;">
+				<h2>¡Actualmente tenemos estos 3 modelos listos para comprar inmediatamente!</h2>
+			</div>
+			<div class="container">
+				<div class="row aln-center">
+					<div class="col-4 col-12-medium">
+						<section class="highlight">
+							<a href="#" class="image featured"><img id="pic1"
+									src="https://www.diariomotor.com/imagenes/picscache/1440x655c/bmw-m3-e46-gtr-p_1440x655c.jpg"
+									alt="" width="300" height="150" HSPACE="40" /></a>
+							<h3><a href="#">BMW M3 GTR</a></h3>
+							<h5>EDICION LIMITADA</h5>
+							<p>El BMW tiene un motor V8 a 90 grados de cuatro litros de cilindrada, está construido en
+								aluminio y BMW no dice su potencia máxima, solo que es mayor de 350 CV a 7.250 rpm (la
+								versión de carreras tiene más de 450 CV).</p>
+							<ul class="actions">
+							</ul>
+						</section>
+					</div>
+					<div class="col-4 col-12-medium">
+						<section class="highlight">
+							<a href="#" class="image featured"><img id="pic2"
+									src="https://media.graphassets.com/MlGppR47SHWfRep5LfnH" alt="" HSPACE="40" /></a>
+							<h3><a href="#">Lamborghini Aventador</a></h3>
+							<p>El indomable motor de 12 cilindros del Aventador SVJ se distingue por la excelencia de su
+								diseño y por la avanzada tecnología de los materiales. Con sus 770 CV de potencia a 8500
+								rpm y una aceleración de 0 a 100 km/h en 2,8 segundos, el Aventador SVJ regala emociones
+								de conducción únicas y nunca antes experimentadas.</p>
+							<ul class="actions">
+							</ul>
+						</section>
+					</div>
+					<div class="col-4 col-12-medium">
+						<section class="highlight">
+							<a href="#" class="image featured"><img id="pic3"
+									src="https://cdn.autobild.es/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2021/11/rivales-porsche-718-cayman-gt4-rs-2540791.jpg?itok=Vj2aFZ-b"
+									alt="" HSPACE="40" /></a>
+							<h3><a href="#">Porche Cayman 718 GT4 RS</a></h3>
+							<p>El Cayman GT4 RS tiene una potencia de 493 hp, un par de 331 libras, misma potencia que
+								es dirigida al eje trasero a través de una transmisión PDK con siete cambios cortos y
+								muy, muy rápidos.</p>
+							<ul class="actions">
+							</ul>
+						</section>
+					</div>
+				</div>
+			</div>
+		</section>
+		<a href="Comprar" class="btn-neon">
+			<span id="span1"></span>
+			<span id="span2"></span>
+			<span id="span3"></span>
+			<span id="span4"></span>
+			Información
+    <div id="map"></div>
+	</body>

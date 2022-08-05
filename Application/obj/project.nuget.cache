@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "dvU/yFrfyRM5EwSCRhws9WL9caCzgJBNwtOEiLrQ4T/Dn4bmWvj9zOT7IN1V2InHlXJdpafGaLFet722OseWEQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jc_lu\\FINALBI\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jc_lu\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\jc_lu\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
