@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dcuWNK9qbeGnwFy1HFOTydGFOjglTyz3e4rqyJe4Crg=",
+  "Hash": "tk5iZ779VCg9T4GrqgG0r9M7T3uIt/DYJ9SENvyR5xE=",
   "Source": "Presentation.WebApp",
   "BasePath": "_content/Presentation.WebApp",
   "Mode": "Default",
@@ -1120,6 +1120,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\backgroundvideo.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\jc_lu\\FINALBI\\Presentation.WebApp\\wwwroot\\images\\doom.jpg",
+      "SourceId": "Presentation.WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jc_lu\\FINALBI\\Presentation.WebApp\\wwwroot\\",
+      "BasePath": "_content/Presentation.WebApp",
+      "RelativePath": "images/doom.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\doom.jpg"
     },
     {
       "Identity": "C:\\Users\\jc_lu\\FINALBI\\Presentation.WebApp\\wwwroot\\images\\ea.png",

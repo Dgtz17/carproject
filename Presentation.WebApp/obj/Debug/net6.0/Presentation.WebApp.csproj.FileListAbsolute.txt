@@ -1724,3 +1724,4 @@ C:\Users\jc_lu\FINALBI\Presentation.WebApp\obj\Debug\net6.0\refint\Presentation.
 C:\Users\jc_lu\FINALBI\Presentation.WebApp\obj\Debug\net6.0\Presentation.WebApp.pdb
 C:\Users\jc_lu\FINALBI\Presentation.WebApp\obj\Debug\net6.0\Presentation.WebApp.genruntimeconfig.cache
 C:\Users\jc_lu\FINALBI\Presentation.WebApp\obj\Debug\net6.0\ref\Presentation.WebApp.dll
+C:\Users\jc_lu\FINALBI\Presentation.WebApp\obj\Debug\net6.0\scopedcss\Views\Ventas\Index.cshtml.rz.scp.css
