@@ -29,6 +29,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options =>
     options.User.RequireUniqueEmail = false;
 }).AddEntityFrameworkStores<IdentityDbContext>();
 builder.Services.AddControllersWithViews();
+builder.Services.AddProgressiveWebApp();
 
 var app = builder.Build();
 if (app.Environment.IsDevelopment())

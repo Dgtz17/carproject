@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-grey border-bottom box-shadow mb-3">
+        <nav class="navbar navbares navbar-expand-sm navbar-toggleable-sm navbar-light bg-grey border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a style="color:white ;" class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
@@ -42,7 +42,9 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
+            <div id-"apprun-app">
             @RenderBody()
+            </div>
         </main>
     </div>
 
@@ -59,6 +61,34 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        $.ajaxSetup({ cache: false });
+        const geturl => new Promise((resolve, reject) => {
+            $.get]5ON(url)
+            •then(d => resolve(d))+
+            .fail(e => reject(e))
+        })
+        window.addEventListener('popstate',(e)=>{
+            const path = document.location.pathname;
+            app.run('/',path);
+        });
+        $('.navbar-nav li a').on('click', function (event) {
+        event.preventDefault();
+        $('. navbar-nav li a').removeClass('active');
+        const menu = $(this).addclass('active')[0]:
+        history.pushState(null, '',menu.href);
+        app.run('/',menu.pathname);
+        });
+        const view = (state) =› state;
+        const update = {
+        '/': asyne (_, path) =>{
+            const json = await get(path);
+            return json;
+            }
+        };
+        app.start('apprun-app', null,view, update);
+
+    </script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

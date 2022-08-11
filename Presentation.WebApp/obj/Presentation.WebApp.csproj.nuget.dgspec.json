@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jc_lu\\FINALBI\\Presentation.WebApp\\Presentation.WebApp.csproj": {}
+    "/Users/onikom/Documents/Repo/again/Final/Presentation.WebApp/Presentation.WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jc_lu\\FINALBI\\Application\\Application.csproj": {
+    "/Users/onikom/Documents/Repo/again/Final/Application/Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jc_lu\\FINALBI\\Application\\Application.csproj",
+        "projectUniqueName": "/Users/onikom/Documents/Repo/again/Final/Application/Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\jc_lu\\FINALBI\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\jc_lu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jc_lu\\FINALBI\\Application\\obj\\",
+        "projectPath": "/Users/onikom/Documents/Repo/again/Final/Application/Application.csproj",
+        "packagesPath": "/Users/onikom/.nuget/packages/",
+        "outputPath": "/Users/onikom/Documents/Repo/again/Final/Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jc_lu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/onikom/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jc_lu\\FINALBI\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\jc_lu\\FINALBI\\Domain\\Domain.csproj"
+              "/Users/onikom/Documents/Repo/again/Final/Domain/Domain.csproj": {
+                "projectPath": "/Users/onikom/Documents/Repo/again/Final/Domain/Domain.csproj"
               }
             }
           }
@@ -55,7 +53,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,28 +63,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jc_lu\\FINALBI\\Domain\\Domain.csproj": {
+    "/Users/onikom/Documents/Repo/again/Final/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jc_lu\\FINALBI\\Domain\\Domain.csproj",
+        "projectUniqueName": "/Users/onikom/Documents/Repo/again/Final/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\jc_lu\\FINALBI\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\jc_lu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jc_lu\\FINALBI\\Domain\\obj\\",
+        "projectPath": "/Users/onikom/Documents/Repo/again/Final/Domain/Domain.csproj",
+        "packagesPath": "/Users/onikom/.nuget/packages/",
+        "outputPath": "/Users/onikom/Documents/Repo/again/Final/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jc_lu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/onikom/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -109,7 +106,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -118,36 +116,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jc_lu\\FINALBI\\Infrastructure\\Infrastructure.csproj": {
+    "/Users/onikom/Documents/Repo/again/Final/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jc_lu\\FINALBI\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "/Users/onikom/Documents/Repo/again/Final/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\jc_lu\\FINALBI\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\jc_lu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jc_lu\\FINALBI\\Infrastructure\\obj\\",
+        "projectPath": "/Users/onikom/Documents/Repo/again/Final/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/Users/onikom/.nuget/packages/",
+        "outputPath": "/Users/onikom/Documents/Repo/again/Final/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jc_lu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/onikom/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jc_lu\\FINALBI\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\jc_lu\\FINALBI\\Application\\Application.csproj"
+              "/Users/onikom/Documents/Repo/again/Final/Application/Application.csproj": {
+                "projectPath": "/Users/onikom/Documents/Repo/again/Final/Application/Application.csproj"
               }
             }
           }
@@ -177,7 +173,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -186,39 +183,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jc_lu\\FINALBI\\Presentation.WebApp\\Presentation.WebApp.csproj": {
+    "/Users/onikom/Documents/Repo/again/Final/Presentation.WebApp/Presentation.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jc_lu\\FINALBI\\Presentation.WebApp\\Presentation.WebApp.csproj",
+        "projectUniqueName": "/Users/onikom/Documents/Repo/again/Final/Presentation.WebApp/Presentation.WebApp.csproj",
         "projectName": "Presentation.WebApp",
-        "projectPath": "C:\\Users\\jc_lu\\FINALBI\\Presentation.WebApp\\Presentation.WebApp.csproj",
-        "packagesPath": "C:\\Users\\jc_lu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jc_lu\\FINALBI\\Presentation.WebApp\\obj\\",
+        "projectPath": "/Users/onikom/Documents/Repo/again/Final/Presentation.WebApp/Presentation.WebApp.csproj",
+        "packagesPath": "/Users/onikom/.nuget/packages/",
+        "outputPath": "/Users/onikom/Documents/Repo/again/Final/Presentation.WebApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jc_lu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/onikom/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jc_lu\\FINALBI\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\jc_lu\\FINALBI\\Application\\Application.csproj"
+              "/Users/onikom/Documents/Repo/again/Final/Application/Application.csproj": {
+                "projectPath": "/Users/onikom/Documents/Repo/again/Final/Application/Application.csproj"
               },
-              "C:\\Users\\jc_lu\\FINALBI\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\jc_lu\\FINALBI\\Infrastructure\\Infrastructure.csproj"
+              "/Users/onikom/Documents/Repo/again/Final/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/onikom/Documents/Repo/again/Final/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -264,6 +259,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.2, )"
+            },
+            "WebEssentials.AspNetCore.PWA": {
+              "target": "Package",
+              "version": "[1.0.65, )"
             }
           },
           "imports": [
@@ -272,7 +271,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -284,7 +284,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
         }
       }
     }
